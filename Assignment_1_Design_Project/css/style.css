@@ -1,0 +1,61 @@
+html{
+
+}
+​
+header{
+  background-color: blue;
+  font-family: "Roboto";
+  color: grey;
+}
+
+th{
+  background-color: blue;
+  color: white;
+  overflow: hidden;
+}
+.table1{
+  border: none;
+  background-color: none;
+  width: 100%;
+}
+
+input{
+  border: none;
+  background-color: transparent;
+  width: float;
+}
+
+td #textarea1{
+  background-color: yellow;
+}
+
+table, th, td{
+  border: 1px solid black;
+  padding: 5px;
+  border-color: gray;
+}
+#Submit1{
+  border-radius: 5%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-left: 45%;
+}
+
+footer{
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.table2 td{
+  background-color: yellow;
+}
+
+.table3 td{
+  background-color: lightgray;
+}
+.table3{
+  border: none;
+}
