@@ -1,0 +1,39 @@
+#breakfast{
+	flex-wrap: "wrap";
+}
+#lunch{
+	flex-wrap: "wrap";
+}
+article#dinner{
+	background-color:hsla(120,100%,75%,0.3);
+}
+video source{
+	width: 100;
+	hight: 100;
+}
+nav article{
+	color:black;
+	background: rgba(255, 99, 71, 0.5);
+	padding: 0.01px 1%;
+	border-color: black;
+}
+nav a li:hover{
+	color: yellow;
+}
+p:nth-child(3){
+	background: red;
+}
+p:first-child{
+	background-color:green;
+}
+p::first-letter{
+	font-size: 200%;
+	color: #8A2BE2;
+}
+
+p:nth-child(1){
+	font-size: 2vw;
+}
+header h1{
+	font-size: 2vw;
+}
