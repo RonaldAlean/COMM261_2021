@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="16x16">
+    <link href="css/imageStyle.css" rel="stylesheet" />
+    <title></title>
+
+    <style>
+        body {
+            background-image: url('breakfast-lg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 200;
+            width: 300;
+            }
+    </style>
+
+  </head>
+  <body>
+
+  <h1>Hello Header Logo<img src="assets/logo.png" alt="logo" width="70"/></h1>
+
+  <video playsinline autoplay muted loop poster="polina.jpg" id="my_id" width="320" height="240">
+    <source src="assets/bbq-grill.webm" type="video/webm">
+    <source src="assets/bbq-grill.mp4" type="video/mp4">
+  </video>
+
+  <p>
+    <a href="breakfast.html"><img src="img/breakfast.jpg" alt="breakfast example" height="100px" /></a>
+    <a href="lunch.html"><img src="img/lunch.jpg" alt="lunch example" height="100px" /></a>
+    <a href="dinner.html"><img src="img/dinner.jpg" alt="dinner example" height="100px" /></a>
+  </p>
+
+  <form name="upload_form" action="sendemail.php" method="post" enctype="multipart/form-data">
+      Atach an image: <br>
+      <input type="file" name="fileupload" accept="image/jpeg, imge/gif">
+  </form>
+
+  <from name="email_form" action="survery.php" method="post">
+	<h3>Your information:</h3>
+	<label for="email"> Your email address:</lable>
+	<input type="email" name="email" id="email" required /> <br>
+	<label for="link">Your web site:</label>
+	<input type="url" name="link" id="link" list="links"> <br>
+	<label for="phone">Your phone number:</label>
+	<input type="tel" name="phone" id="phone" required> <br>
+	<br>
+	<input type="submit" name="submit" value="submit_Survey">
+</form>
+
+  </body>
+</html>
