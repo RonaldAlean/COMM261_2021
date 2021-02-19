@@ -1,15 +1,9 @@
 html{
-
-}
-​
-header{
-  background-color: blue;
-  font-family: "Roboto";
-  color: grey;
+  font-family: sans-serif;
 }
 
 th{
-  background-color: blue;
+  background-color: #1b94bc;
   color: white;
   overflow: hidden;
 }
@@ -19,6 +13,24 @@ th{
   width: 100%;
 }
 
+/**all of type number*/
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+input[type=number],
+input[type=text],
+input[type=tel],
+input[type=date] {
+  width: 100%;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  /*Removing  the calendar sign*/
+  /*would be a design flaw*/
+  /*DESIGN FLAW*//*NOT REMOVE LOGO*//*OF CALENDAR*/
+  display: none;
+}
+
 input{
   border: none;
   background-color: transparent;
@@ -26,31 +38,35 @@ input{
 }
 
 td #textarea1{
-  background-color: yellow;
+  background-color: #ffffa1;
 }
 
 table, th, td{
-  border: 1px solid black;
+  border: 1px solid blue;
   padding: 5px;
-  border-color: gray;
+  border-color: blue;
 }
+/*submit button*/
 #Submit1{
-  border-radius: 5%;
-  background-color: blue;
+  border-radius: 10px 10px;
+  background-color: #1b94bc;
   color: white;
   text-align: center;
   margin-left: 45%;
+  padding: 10px 15px;
 }
 
 footer{
-  background-color: blue;
+  background-color: #1b94bc;
   width: 100%;
   text-align: center;
   color: white;
+  font-size: 11;
+  padding: 10px 0px;
 }
 
 .table2 td{
-  background-color: yellow;
+  background-color: #ffffa1;
 }
 
 .table3 td{
@@ -58,4 +74,14 @@ footer{
 }
 .table3{
   border: none;
+}
+
+#summary_row1col1{
+  column-fill: 0px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+#text_decor{
+  color: lightgray;
 }
