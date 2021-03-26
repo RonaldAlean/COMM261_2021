@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<link href="css/style.css" rel="stylesheet">
+​<link href="css/menuStyle.css" rel="stylesheet">
+<link href="css/img.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+
+    <nav class="topNavigation">
+        <a class="#news" href="index.html">Home</a>
+        <a href="game.html">Game</a>
+        <a href="online.html">Online</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="history.html">History</a>
+        <a href="similarGames.html">Similar games</a>
+        <a href="account.html">Account</a>
+        <a href="news.html">News</a>
+    </nav>
+
+    <div>
+        <h1>Hi Sign up here</h1>
+        <br />
+        <br />
+    </div>
+
+    <form action="test.php" method="post">
+
+        <table style="width:100%;" class="table2">
+            <tr><th>Last Name</th><th>First Name</th><th>M.I.</th><th>Account*</th><td><input id="account" placeholder="Enter number" type="number" required /></td></tr>
+            <tr><td><input id="latName" type="text" required /></td><td><input id="firstName" type="text" required /></td><td></td><th>game*</th><td><input id="department" type="text" required /></td></tr>
+            <tr><th>Want to Sign up For a Game?</th><td colspan="2"><input type="tel" id="social_security" name="user" placeholder="username" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" required /></td><th>User*</th><td><input type="text" id="country_code" placeholder="NUMBER" name="country_code" pattern="[A-Za-z]{4} - [A-Za-z]{2} - [A-Za-z]{3}" required /></td></tr>
+        </table>
+        <br />
+
+        <table style="width: 30%" class="table1">
+            <tr><th>Comments*</th></tr>
+            <tr><td><textarea id="textarea1" name="textarea" rows="4" cols="50" placeholder="Give us a summary of what you think about the game"></textarea></td></tr>
+        </table>
+
+        <br />
+        <input id="Submit1" type="submit" value="submit" />
+    </form>
+
+</body>
+</html>
